@@ -19,11 +19,6 @@ document
       alert("Please fill in all the fields.");
       return;
     }
-
-    // Submit the form (replace with your form handling code)
-    alert("Your message has been sent successfully!");
-    // Optionally, clear form fields after submission
-    document.getElementById("contact-form").reset();
   });
 
 document.getElementById("hamburger").addEventListener("click", function () {
